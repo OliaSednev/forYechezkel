@@ -1,0 +1,161 @@
+.container-fluid {
+  padding-right: 25px;
+}
+.navbar {
+  padding: 15px;
+  line-height: 24px;
+  padding-bottom: 0;
+}
+.navbar-brand {
+  text-align: left;
+}
+.navbar-brand .google-img {
+  background-image: url(https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: 74px 24px;
+  height: 24px;
+  width: 74px;
+  position: relative;
+  top: 1px;
+  vertical-align: middle;
+}
+.navbar-brand .photos {
+  color: rgba(0, 0, 0, 0.54);
+  font-family: 'Product Sans', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 24px;
+}
+.navbar-right ul {
+  list-style: none;
+  display: flex;
+}
+.navbar-right ul li {
+  padding-left: 25px;
+  cursor: pointer;
+}
+img {
+  border-radius: 50%;
+  display: block;
+  height: 37px;
+  width: 39px;
+}
+.bell-circal {
+  padding-top: 2px;
+}
+.fa-bell {
+  background-color: rgba(0, 0, 0, 0.58);
+  border-radius: 50%;
+  width: 20px;
+  height: 19px;
+  padding-top: 6px;
+  color: white;
+  padding-left: 5px;
+  font-size: 10px;
+}
+.fa-bell:hover {
+  background-color: black;
+}
+.photos-search .form-control {
+  height: 45px;
+  background-color: #e9e8ea;
+  border: none;
+  padding-left: 48px;
+  padding-right: 50px;
+}
+.photos-search .form-control:hover,
+.photos-search .form-control:focus {
+  background-color: white;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.photos-search .fa-search {
+  color: #d7dcdd;
+  position: absolute;
+  right: 25px;
+  margin: 4px;
+}
+.photos-search .fa-times {
+  color: #e9e8ea;
+  position: absolute;
+  left: 10px;
+  margin: 13px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.photos-search .fa-times:hover {
+  color: black;
+}
+.fa-th,
+.fa-cloud-upload,
+.fa-plus,
+.fa-search {
+  padding-top: 10px;
+  color: rgba(0, 0, 0, 0.58);
+}
+.fa-th:hover,
+.fa-cloud-upload:hover,
+.fa-plus:hover,
+.fa-search:hover {
+  color: black;
+}
+.fa-th {
+  height: 24px;
+}
+.fa-bars {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 22px;
+  padding-top: 6px;
+  cursor: pointer;
+}
+.border-line {
+  border-bottom: 1px solid #dde2e3;
+}
+@media (max-width: 1700px) {
+  .fa-plus {
+    padding-left: 0;
+  }
+  .container-fluid {
+    padding-right: 45px;
+  }
+}
+@media (max-width: 1570px) {
+  .container-fluid {
+    padding-right: 65px;
+  }
+}
+@media (max-width: 1470px) {
+  .container-fluid {
+    padding-right: 85px;
+  }
+}
+@media (max-width: 1350px) {
+  .container-fluid {
+    padding-right: 105px;
+  }
+}
+@media (max-width: 1260px) {
+  .container-fluid {
+    padding-right: 125px;
+  }
+}
+@media (max-width: 1200px) {
+  .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 895px) {
+  ul {
+    padding-left: 0px;
+  }
+  .fa-bars {
+    padding-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-right {
+    padding-top: 10px;
+  }
+}

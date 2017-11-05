@@ -1,0 +1,41 @@
+.photo {
+  display: inline-block;
+  position: relative;
+  top: 10%;
+}
+.photo .fa-check {
+  cursor: pointer;
+  position: absolute;
+  background-color: transparent;
+  border-radius: 50%;
+  width: 28px;
+  height: 26px;
+  padding-top: 5px;
+  padding-left: 4px;
+  color: transparent;
+  margin: 21px;
+  left: 2px;
+}
+.photo .fa-check:hover {
+  background-color: rgba(0, 0, 0, 0.58);
+  color: white;
+}
+.current-img {
+  display: inline-block;
+  padding: 3px;
+  padding-top: 5px;
+  width: 370px;
+  height: 278px;
+  text-align: center;
+}
+.current-img:hover {
+  background-color: #eeeeee;
+  border: double 20px;
+  border-color: #eeeeee;
+}
+@media (max-width: 991px) {
+  .current-img {
+    width: 330px;
+    height: 248px;
+  }
+}
